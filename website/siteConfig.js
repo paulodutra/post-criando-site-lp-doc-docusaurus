@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
+  title: 'Post sobre docusaurus', // Title for your website.
+  tagline: 'Um site sobre o docusaurus',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -48,14 +48,14 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  headerIcon: 'img/docusaurus.svg',
+  footerIcon: 'img/docusaurus.svg',
+  favicon: 'img/docusaurus.ico',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#11767a',
-    secondaryColor: '#0b5255',
+    primaryColor: '#2e8555',
+    secondaryColor: '#388b5d',
   },
 
   /* Custom fonts for website */
@@ -73,7 +73,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Post sobre docusaurus`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
