@@ -29,6 +29,14 @@ const siteConfig = {
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
+  //Social Media Config
+  facebookAppId: '',
+  facebookComments: '',
+  facebookPixelId: '',
+ 
+  twitter: true,
+  twitterUsername: 'paulodutrainfo',
+
   // Used for publishing and more
   projectName: 'test-site',
   organizationName: 'facebook',
@@ -38,9 +46,9 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
+    {doc: 'doc1', label: 'Documentação'},
     {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
+    {page: 'help', label: 'Ajuda'},
     {blog: true, label: 'Blog'},
   ],
 

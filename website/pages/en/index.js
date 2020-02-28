@@ -64,9 +64,9 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href="#try">Sobre</Button>
+            <Button href={docUrl('doc1.html')}>Como instalar ?</Button>
+            <Button href={docUrl('doc2.html')}>Como configurar ?</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -106,12 +106,14 @@ class Index extends React.Component {
         {[
           {
             content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
-            image: `${baseUrl}img/undraw_code_review.svg`,
+              '**Desenvolvido com React, Baseado em Markdown e Pronto para traduções**.' +
+              ' O docusaurus é fortemente utilizado para a criação de sites de documentações de ferramenta' +
+              'veja no link a seguir alguns sites de libs e bibliotecas feito com docusaurus' +
+              ' [**Clique aqui e veja os Cases**](https://v2.docusaurus.io/showcase). Inclusive vale ressaltar que a [**2º versão**](https://v2.docusaurus.io) do docusaurus esta em desenvolvimento e se . ' +
+              'encontra na versão alpha atualmente.',
+            image: `${baseUrl}img/build_with_react.svg`,
             imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
+            title: 'Principais caracteristicas do docusaurus',
           },
         ]}
       </Block>
